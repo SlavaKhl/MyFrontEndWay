@@ -1,0 +1,36 @@
+.mission__comp {
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+}
+
+.mission__vision {
+    width: 420px;
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mission__vision h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mission__images {
+    height: inherit;
+    position: relative;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 102px;
+}
+
+.img6 {
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 349px;
+}
+
+

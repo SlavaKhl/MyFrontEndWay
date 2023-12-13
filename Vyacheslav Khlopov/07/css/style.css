@@ -1,0 +1,193 @@
+.container {
+    max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid_gallery {
+    display: grid;
+    background-color: darkgray;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "elem1 elem2 elem3 elem4 elem5 elem6 elem6 elem7"
+    "elem8 elem8 elem9 elem4 elem10 elem10 elem11 elem7"
+    "elem12 elem12 elem9 elem13 elem10 elem10 elem14 elem14"
+    "elem12 elem12 elem15 elem15 elem16 elem17 elem14 elem14"
+    "elem18 elem19 elem15 elem15 elem16 elem20 elem14 elem14";
+    padding: 10px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.gallery_item1 {
+    grid-area: elem1;
+    background-color: red;
+    background-image: url(https://clck.ru/36S7b8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_item2 {
+    grid-area: elem2;
+    background-color: orange;
+    background-image: url(https://clck.ru/36S7fW);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_item3 {
+    grid-area: elem3;
+    background-color: yellow;
+    background-image: url(https://clck.ru/36S7mF);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_item4 {
+    grid-area: elem4;
+    background-color: green;
+    background-image: url(https://clck.ru/36S7sp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_item5 {
+    grid-area: elem5;
+    background-color: blue;
+    background-image: url(https://clck.ru/36S7vU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_item6 {
+    grid-area: elem6;
+    background-color: blueviolet;
+    background-image: url(https://clck.ru/36S7zB);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_item7 {
+    grid-area: elem7;
+    background-color: brown;
+    background-image: url(https://clck.ru/36S6k4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery_item8 {
+    grid-area: elem8;
+    background-color: aliceblue;
+    background-image: url(https://clck.ru/36S86w);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item9 {
+    grid-area: elem9;
+    background-color: goldenrod;
+    background-image: url(https://clck.ru/36S8C8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery_item10 {
+    grid-area: elem10;
+    background-color: hotpink;
+    background-image: url(https://clck.ru/36S8b8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item11 {
+    grid-area: elem11;
+    background-color: rgb(49, 76, 99);
+    background-image: url(https://clck.ru/36S8f8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery_item12 {
+    grid-area: elem12;
+    background-color: rgb(3, 40, 72);
+    background-image: url(https://clck.ru/36S8jQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item13 {
+    grid-area: elem13;
+    background-color: rgb(63, 7, 45);
+    background-image: url(https://clck.ru/36S8nC);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item14 {
+    grid-area: elem14;
+    background-color: rgb(18, 103, 41);
+    background-image: url(https://clck.ru/36S8qS);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item15 {
+    grid-area: elem15;
+    background-color: rgb(240, 250, 255);
+    background-image: url(https://clck.ru/36S8uC);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.gallery_item16 {
+    grid-area: elem16;
+    background-color: rgba(240, 248, 255, 0.726);
+    background-image: url(https://clck.ru/36S96A);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item17 {
+    grid-area: elem17;
+    background-color: rgba(240, 255, 241, 0.726);
+    background-image: url(https://clck.ru/36S996);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item18 {
+    grid-area: elem18;
+    background-color: rgba(240, 255, 243, 0.726);
+    background-image: url(https://clck.ru/36S9Bo);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item19 {
+    grid-area: elem19;
+    background-color: rgba(115, 178, 232, 0.726);
+    background-image: url(https://clck.ru/36S9Hq);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_item20 {
+    grid-area: elem20;
+    background-color: rgba(255, 240, 247, 0.726);
+    background-image: url(https://clck.ru/36S9LB);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid_gallery > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid_gallery2 > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.gallery_item:nth-child(2n + 2) {
+    background-color: red;
+}

@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./common.css";
+@import "./header.css";
+@import "./title.css";
+@import "./main.css";
+@import "./aboutme.css";
+@import "projects.css";
+@import "./contacts.css";
+@import "./footer.css";

@@ -1,0 +1,18 @@
+:root {
+    --main-primary-color: rgb(0, 8, 255);
+    --main-bg-color: #0d0000;
+    --secondary-bg-color: #030358;
+    --white: #ffff;
+}
+
+div {
+    background-color: var(--main-bg-color);
+    padding: var(--main-padding);
+    color: var(--white);
+}
+
+span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+}

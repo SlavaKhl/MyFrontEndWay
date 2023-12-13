@@ -1,0 +1,15 @@
+.title {
+    margin: 100px auto 60px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 16px;
+    color: var(--main-grey);
+}

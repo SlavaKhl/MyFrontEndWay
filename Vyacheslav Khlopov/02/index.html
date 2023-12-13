@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- code's text is English -->
+<html lang="en">
+<!-- This code is my first expirience to create Web Portfolio and I tried
+to include more Semantic tags to get better structure and appearance -->
+<head>
+    <!-- A viewport meta tag for responsive design -->
+    <meta charset="UTF-8">
+    k<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Also I've used basic CSS for styling inside the <style> tags -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #ed7777;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #d8c3c3;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;  
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #e90a0a;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="Images/Portfolio.jpeg">
+        <h1>Veteran's Portfolio</h1>
+        <h3>Welcome to my portfolio website</h3>
+    </header>
+    
+    <!-- References <a> for navigation links -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a novice web developer, my goal is to create beautiful and functional websites.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <article>
+                <p>Description of all skills</p>
+            </article>
+            </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </article>
+            <article>
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </article>
+        </section>
+        <!-- <address> tags for contact information -->
+        <section id="contact">
+            <h3>Contacts</h3>
+            <address>
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </address>
+        </section>
+    </main>
+    <!-- Copy rights (joke) -->
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+</html>

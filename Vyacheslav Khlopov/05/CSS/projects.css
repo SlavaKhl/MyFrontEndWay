@@ -1,0 +1,70 @@
+.project__list {
+    display: flex;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 35px;
+    background-color: var(--secondary-bg-color);
+}
+
+.projects__head {
+    text-align: center;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900; 
+    margin: 50px 0 50px 0;
+}
+
+.project__description {
+    margin-left: 40px;
+}
+
+.projects__subhead {
+    text-align: left;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 900;    
+    margin-bottom: 10px;
+}
+
+.projects__par {
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 200;    
+}
+
+.projects__skills {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+
+.projects__skills div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.projects__skills div span {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+@media (max-width: 769px) {
+    .project__list,
+    .projects__skills {
+        flex-direction: column;
+    }
+    .project__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project__description {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}

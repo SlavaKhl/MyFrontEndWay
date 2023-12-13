@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  #app {
+    max-width: 400px;
+    margin: 50px auto;
+  }
+
+  #taskInput {
+    width: 70%;
+  }
+
+  #taskList {
+    margin-top: 20px;
+  }
+
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .task button {
+    margin-left: 10px;
+    cursor: pointer;
+  }

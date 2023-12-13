@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <!-- My first form -->
+        <meta charset="UTF-8">
+        <title>Форма регистрации</title>
+    </head>
+
+    <body>
+        <h1> <mark>Форма регистрации</mark></h1>
+        <form action="" method="get">
+            <fieldset>
+                <label for="name">Введите своё имя:</label>
+                <input type="text" placeholder="логин" name="name" id="name" required>
+                <label for="pwd">Введите свой пароль:</label>
+                <input type="password" placeholder="пароль" name="pwd" id="pwd" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> <mark>Дополнительная информация о себе</mark></legend>
+                <br>
+                <b><label for="text">Укажите свой пол:</label></b>
+                <br>
+                <input checked type="checkbox" name="sex" value="man">Мужской</input>
+                <br>
+                <br>
+                <input checked type="checkbox" name="sex" value="women">Женский</input>
+                <br>
+                <br>
+                <b><label for="text">Укажите дату рождения</label></b>
+                <br>
+                <br>
+                <b><label for="text">День рождения:</label></b>
+                <input type="date">
+                <br>
+                <br>
+                <b><label for="city">Место проживания:</label></b>
+                <br>
+                <br>
+                <label for="select-city">Ваш город</label>
+                <select name="city">
+                    <optgroup label="Латвия">
+                        <option value="Рига">Рига</option>
+                        <option value="Резекне">Резекне</option>
+                    </optgroup>
+                    <optgroup label="Россия">
+                        <option value="Саратов">Саратов</option>
+                        <option value="Самара">Самара</option>
+                    </optgroup>
+                </select>                                    
+            </fieldset>
+            <br>
+            <fieldset>
+				<legend><mark>Хобби</legend>
+            <table>
+                <th>Можно выбрать любое количество</th>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="travel" value="" />Путешествия
+                    </td>
+                    <td>
+                        <input type="checkbox" name="reading" value="" />Чтение
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="art" value="" />Рисование
+                    </td>
+                    <td>
+                        <input type="checkbox" name="chess" value="" />Шахматы
+                    </td>
+                </tr>
+            </table>
+			</fieldset>
+            <fieldset>
+				<legend>Полезная информация</legend>
+				<label for="story">Навыки, знание языков и пр. </label>
+                <textarea id="story" name="story" rows="5" cols="33">...</textarea>
+			</fieldset>
+            <br>
+            <button>Отправить</button>
+			
+        </form>
+         <!-- /My first form -->   
+        
+    </body>
+</html>

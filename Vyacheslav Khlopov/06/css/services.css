@@ -1,0 +1,42 @@
+.services__items {
+    display: flex;
+    height: 264px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    width: 17%;
+    min-height: 225px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.services__item h3 {
+    text-align: left;
+    padding: 10px 10px;
+    color: var(--main-grey);
+    font-weight: bold;
+}
+
+.services__item p {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.service__img {
+    width: 25%;
+    height: 25%;
+    margin-left: 5%;
+}
+
+.services__items img {
+    width: 10%;;
+    
+}

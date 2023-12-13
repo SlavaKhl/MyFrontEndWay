@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="" srcset="">
+        <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Skills</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Project</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Contacts</a>
+        <img src="img/github1.png" alt="" srcset="">
+        <img src="img/linkedIn.png" alt="" srcset="">
+    </header>
+    <main>
+        <section>
+            <h1>Hello world! I’m Vyacheslav Khlopov, 
+                a Front-end developer, based in Riga.
+            </h1>
+                        <button type="button">Check my resume</button>
+        </section>
+        <section>
+            <!-- Zeka вопрос: как установить (отразить) взаимное расположение текстовых блоков и картинок,
+            чтобы они были в одной линии? Это для этой секции и секции Projects. Пытался исрользовать
+            селекторы с различными классами и пр. пока не получается...     -->
+            <h2>About me</h2>
+                <div class="aboutMe1">
+                    <img class="image" src="img/Portfolio.png" alt="" srcset="">
+                </div>
+                <div class="aboutMe2">
+                    <p>I took part in the development of modern interfaces, creation of UI solutions that meet the needs of users while studying new methodologies and empathizing with users. 
+                    </p>                    
+                    <p>I had an opportunity to work on the design of different projects including websites and mobile applications for marketing as well as participated in other challenges.
+                    </p>
+                </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <img src="img/html.png" alt="">
+                <span>HTML</span>
+            </div>
+            <div class="skills">
+                <img src="img/css.png" alt="">
+                <span>CSS</span>
+            </div>
+            <div class="skills">
+                <img src="img/js.png" alt="">
+                <span>JavaScript</span>
+            </div>
+            <hr>
+            <div class="skills2">
+                <img src="img/react.png" alt="">
+                <span>ReactJS</span>
+            </div>
+            <div class="skills2">
+                <img src="img/git.png" alt="">
+                <span>Git</span>
+            </div>
+            <div class="skills2">
+                <img src="img/github.png" alt="">
+                <span>GitHub</span>
+            </div>
+        </section> 
+        <section>
+            <h2>Projects</h2>
+            <div>
+                <img src="img/Expenses.png" alt="" srcset="">
+                <title>Expenses app</title>
+                <p>Money Manager makes managing personal finances as easy as pie! Now easily record your personal and business financial transactions, generate spending reports...
+                </p>
+                    <div class="projects">
+                        <img src="img/html.png" alt="">
+                        <span>HTML</span>
+                    </div>
+                    <div class="projects">
+                        <img src="img/css.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                    <div class="projects">
+                        <img src="img/js.png" alt="">
+                        <span>JavaScript</span>
+                    </div>
+            </div>
+            <div>
+                <img src="img/Counter.png" alt="" srcset="">
+                <title>Calorie Counter</title>
+                <p>Are you looking for a calorie counter with a free barcode scanner, food log, macros tracker, or a comprehensive and effective diet plan? Meet MyNetDiary - sleek, smart and...
+                </p>
+                    <div class="counters">
+                        <img src="img/html.png" alt="">
+                        <span>HTML</span>
+                    </div>
+                    <div class="counters">
+                        <img src="img/css.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                    <div class="counters">
+                        <img src="img/js.png" alt="">
+                        <span>JavaScript</span>
+                    </div>
+            </div>
+        </section>
+        <section>
+            <h2>Contacts</h2>
+        </section>
+            <div class="contacts">
+                <form>
+                    <fieldset class="all_connections">
+                        <label for="name">Your name:</label>
+                        <br>
+                        <input type="text" id="y_name" value="Enter Your name" required>
+                        <br>
+                        <label for="name">Email:</label>
+                        <br>
+                        <input type="text" id="y_email" value="Enter email" required>
+                        <br>
+                        <label for="name">Message:</label>
+                        <br>
+                        <input type="text" id="y_message" value="Enter Text">
+                        <br>
+                        <button type="submit">Sent message</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="my_contacts">
+                <form>
+                    <fieldset class="my_data">
+                        <div class="email">
+                            <img src="img/email.png" alt="">
+                            <span> <b>Email</b> </span>
+                        </div>
+                        <div class="whatsapp">
+                            <img src="img/Whatsapp.png" alt="">
+                            <span> <b>Whatsapp</b></span>
+                        </div>
+                        <div class="message">
+                            <img src="img/Message.png" alt="">
+                            <span> <b>Veteran</b></span>
+                        </div>
+                        <div class="github">
+                            <img src="img/github1.png" alt="">
+                            <span> <b>nealtesc</b></span>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>      
+    </main>
+    <footer>
+        <p>© 2023 Veteran</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Skills</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Project</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Contacts</a>
+        <img src="img/github.png" alt="" srcset="">
+        <img src="Img/linkedIn.png" alt="" srcset="">
+    </footer>     
+</body>
+</html>

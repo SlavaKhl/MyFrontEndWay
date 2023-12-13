@@ -1,0 +1,49 @@
+.aboutme {
+    margin-top: 40px;
+    display: flex;
+}
+
+.aboutme__left {
+    width: 60%;
+}
+
+.aboutme__left h2 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.aboutme__left p {    
+    font-size: 24px;
+    line-height: 36px;
+    /* margin-right: 0px; */
+}
+
+.aboutme__right {
+    width: 40%;
+    height: 326px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    /* background-color: coral; */
+    background-image: url(../img/figma.png);
+}
+
+@media screen and (max-width: 769px) {
+    .aboutme {
+        flex-direction: column-reverse;
+        /* background-color: darkmagenta; */
+    }  
+    
+    .aboutme__left {
+        width: 100%;
+    }
+    
+    .aboutme__left h2,
+    .aboutme__left p {
+        margin-top: 20px;
+        text-align: center;
+        }  
+    .aboutme__right {
+     margin-left: 30%;   
+    }
+}

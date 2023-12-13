@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+@font-face {
+    font-family: average;
+    src: url(../04/Font_store/Average-Regular.ttf);
+}
+
+/* @font-face {
+    font-family: ubuntu-regular;
+    src: url(../04/Font_store/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubuntu-bold;
+    src: url(../04/Font_store/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: ubuntu-italic;
+    src: url(../04/Font_store/Ubuntu-Italic.ttf);
+} */
+
+* {
+    border: 1px solid rgb(255, 0, 0) !important;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'average', sans-serif;
+    /* background-color: var(--main-bg-color); */
+    background-color: var(--secondary-bg-color);
+}
+
+h1, h2 {
+    font-family: 'average', sans-serif;
+}
+
+.container {
+    /* background-color: gray; */
+    width: 1142px;
+    margin: 0 auto;
+}
+
+mark {
+    background-color: transparent;
+    color: var(--main-primary-color);
+}
+

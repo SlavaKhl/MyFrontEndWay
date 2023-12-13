@@ -1,0 +1,15 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 50px;
+}
+
+.header__link a {
+    margin: 0 40px;
+    color: var(--white);
+    text-decoration: none;
+}

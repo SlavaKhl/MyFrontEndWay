@@ -1,0 +1,76 @@
+.award {
+    position: relative;
+    /* background-color: brown; */
+}
+
+.award__double {
+    /* position: relative; */
+    /* background-color: burlywood; */
+}
+
+.award__win {
+    position: relative;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 24%;
+    background-color: blue;
+    color: white;
+    width: 1140px;
+    height: 262px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.award_img1 {
+    position: absolute;
+    left: 1%;
+    top: -10%;
+}
+
+.award__check {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    width: 1140px;
+    height: 262px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.award_img2 {
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+    z-index: 1;
+}
+
+.award_img3 { 
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.award__choice {
+    position: absolute;
+    top: 27%;
+    background-color: greenyellow;
+}
+
+.choice__head {
+    text-align: center;
+}
+
+.choice__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+
+.choice__item {
+    display: flex;
+    align-items: center;
+}

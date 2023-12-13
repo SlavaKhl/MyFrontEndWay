@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300&display=swap'); */
+
+@font-face {
+    font-family: average;
+    src: url(../04/Font_store/Average-Regular.ttf);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    /* background-color: lightgray; */
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red!important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
