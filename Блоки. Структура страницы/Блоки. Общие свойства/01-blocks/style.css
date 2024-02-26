@@ -1,0 +1,51 @@
+/*
+
+Блок. 
+Универсальный тег для создания блока - <div>
+
+Блок - по умолчанию: 
+— имеет ширину равную 100% от доступной ему ширины
+(вся ширина родителя)
+— имеет высоту - равную высоте контента внутри него
+Можно задать высоту и ширину фиксированно в px или %, или других величинах.
+
+У блока есть такие важные свойства:
+- Внешние отступы
+- Внутренние отступы
+- Рамка
+
+*/
+
+.block {
+    background-color: #E0E0E0;
+
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: #66bb6a; */
+
+    border: 20px solid #66bb6a;
+
+    width: 400px;
+    /* height: 200px; */
+
+    /* padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 25px; */
+
+    /* padding: 50px 15px 30px 25px; */
+
+    padding: 20px;
+
+}
+
+.block-margin {
+    /* margin-top: 20px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    margin-left: 50px; */
+
+    /* margin: 20px 35px 25px 50px; */
+
+    margin: 50px;
+}

@@ -1,0 +1,51 @@
+html, body {
+	height: 100%;
+} 
+
+body {
+	margin: 0;
+	text-align: center;
+	padding: 30px;
+	
+	position: relative;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+.block-container {
+	background-color: #DCDCDC;
+	width: 400px;
+	height: 300px;
+	padding: 30px;
+	color: #FFF;
+	/*position: static;*/
+
+	position: relative;
+}
+
+
+.block-absolute {
+	background-color: #FFA500;
+	width: 200px;
+	height: 60px;
+	color: #FFF;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.absolute-2 {
+	height: 15px;
+	width: 15px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

@@ -1,0 +1,92 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@100&display=swap');
+
+body {
+    padding-top: 60px;
+    padding-left: 60px;
+
+    font-family: 'Montserrat', serif;
+    line-height: normal;
+}
+
+.product {
+    width: 420px;
+    padding: 20px 40px 50px;
+
+    border: 1px solid #DBB9B9;
+    text-align: center;
+}
+
+.product-img {
+    margin-bottom: 30px;
+}
+
+.product-title {
+    margin-bottom: 30px;
+
+    color: #CD2626;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.product-text {
+    margin-bottom: 30px;
+    padding: 0 5px;
+    /* color: #000000; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.product-text p + p {
+    margin-top: 14px;
+}
+
+.product-text a {
+    color: #BD3030;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+
+.product-price {
+    margin-bottom: 46px;
+    font-size: 26px;
+}
+
+.product-price span {
+    font-weight: 700;
+}
+
+.product-button {
+    padding: 16px 42px 17px;
+    border-radius: 8px;
+    
+    background-color: #CD2626;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 26.82px;
+    font-weight: 700;
+
+    transition: 
+        background-color 0.3s ease-in, color 0.3s ease-in, border 0.3s ease-in;
+}
+
+button:hover, button:focus {
+    background-color: #E41919;
+    color: #FFF;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+
+    background-color: #8E1010;
+    color: #F1C9C9;
+}
+
+
+
+
+
