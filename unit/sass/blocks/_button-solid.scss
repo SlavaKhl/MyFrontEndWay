@@ -1,0 +1,32 @@
+.button-solid {
+    // display: inline-block;
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border: none;
+
+    background: #ffffff;
+    // box-shadow: 0px 8px 20px 0px rgba(24, 219, 148, 0.35);
+
+    color: #2E2E2E;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    &:focus {
+        outline: none;
+        background: #2f2f2f;
+        color: #ffffff;
+    }
+}

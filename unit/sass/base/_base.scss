@@ -1,0 +1,166 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%; /* sticky footer */
+}
+
+body {
+    height: 100%; /* sticky footer */
+    display: flex; /* sticky footer */
+    flex-direction: column; /* sticky footer */
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    color: $textColor;
+}
+
+body > * {
+    flex-shrink: 0; /* sticky footer */
+}
+
+input, textarea, button {
+    font-family: inherit;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+ {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+      width: 900px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 600px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 320px;
+    }
+}
+
+.none {
+    display: none;
+}
+
+.bgcolor {
+    background-color: #F2F8F6;
+}
+
+.main-header {
+    color: #31405B;
+    font-size: 54px;
+}
+
+.logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+/* main */
+
+.main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.main-row:last-child {
+    margin-bottom: 0px;
+}
+
+/* .main-row-reverse {
+    flex-direction: row-reverse;
+} */
+
+/*  ниже более универсальный и гибкий метод */
+
+.main-row:nth-child(even) {
+    flex-direction: row-reverse
+}
+
+.main-content {
+    width: 470px;
+}
+
+.main-content-header {
+    margin-bottom: 20px;
+}
+
+.main-content-text {
+    margin-bottom: 40px;
+    color: #31405B;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.main-content-text a {
+    color: #138ECE;
+}
+
+.main-content-text p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.main-img {
+    width: 570px;
+}

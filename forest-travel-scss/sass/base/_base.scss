@@ -1,0 +1,95 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%; /* sticky footer */
+}
+
+body {
+    height: 100%; /* sticky footer */
+    display: flex; /* sticky footer */
+    flex-direction: column; /* sticky footer */
+    font-family: 'PT Sans', sans-serif;
+    line-height: normal;
+    color: #31405B;
+}
+
+body > * {
+    flex-shrink: 0; /* sticky footer */
+}
+
+input {
+    font-family: 'PT Sans', sans-serif;
+}
+
+label {
+    cursor: pointer;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+ {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}
+
+.bgcolor {
+    background-color: #F2F8F6;
+}
+
+.main-header {
+    color: #31405B;
+    font-size: 54px;
+}
+
+.inner-page {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}

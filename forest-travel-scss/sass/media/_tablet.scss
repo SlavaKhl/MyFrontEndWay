@@ -1,0 +1,92 @@
+/* Tablet */
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+    
+    .header-top {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-content {
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .header-nav-button {
+        display: block;
+        background-color: transparent;
+        border: none;   
+    }
+    
+    .header-nav-list {
+        display: none;
+    }
+    
+    .header-title {
+        font-size: 52px;
+    }
+    
+    .header-scroll {
+        font-size: 0;
+    }
+    
+    .header {
+        height: 591px;        
+    }
+    
+    /* Main part */
+    .main {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .main-row {
+        margin-bottom: 80px;
+    }
+    
+    .main-content {
+        width: 420px;
+    }
+    
+    .main-img {
+        width: 420px;
+    }
+    
+    .main-header {
+        font-size: 50px;
+        line-height: 1;
+    }
+    
+    .main-content-text {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .footer-element-services {
+        display: none;
+    }
+    
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    
+    .footer-logo .logo {
+        font-size: 30px;
+    }
+    .footer-copy-right p {
+        font-size: 14px;
+    }
+
+    .footer-element-title {
+        margin-bottom: 20px;
+    }
+}

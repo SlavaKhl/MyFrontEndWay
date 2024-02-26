@@ -1,0 +1,77 @@
+/*Footer */
+
+.footer {
+    margin-top: auto; /* sticky footer */
+    padding-top: 70px;
+    padding-bottom: 95px;
+    color: #ffffff;
+    background-color: #265847;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-element-wrapper {
+    display: flex;  
+    padding-top: 10px;  
+}
+
+.footer-copy-right {
+    width: 270px;    
+}
+
+.footer-copy-right p {
+    
+    font-size: 16px;
+    line-height: 1.6;   
+}
+
+.footer-logo {
+    margin-bottom: 26px;
+}
+
+.footer-element {
+    font-size: 18px;
+}
+
+.footer-element-info {
+    width: 170px;
+}
+
+.footer-element-services, .footer-element-contacts {
+    width: 270px;
+}
+
+/* Выяснить ниже???*/ 
+.footer-element + .footer-element {
+    margin-left: 30px;
+}
+
+.footer-element p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer-element-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.footer-element-list {
+    font-size: 18px;
+}
+
+.footer-element-list li:not(:last-child) {
+    margin-bottom: 15px;    
+}
